@@ -3,6 +3,7 @@ title: "Gosky Test RMD"
 author: "Ross Gosky"
 date: "2/3/2020"
 output: html_document
+keep_md: true
 ---
 
 ```{r setup, include=FALSE}
@@ -22,5 +23,6 @@ summary(Auto)
 
 ```{r auto2}
 plot(Auto$cylinders, Auto$mpg)
+hist(Auto$cylinders)
 ```
 
