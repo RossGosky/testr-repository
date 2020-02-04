@@ -2,7 +2,9 @@
 title: "Gosky Test RMD"
 author: "Ross Gosky"
 date: "2/3/2020"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 keep_md: true
 ---
 
